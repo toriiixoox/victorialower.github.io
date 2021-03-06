@@ -1,0 +1,256 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Optima, sans-serif;
+}
+
+body{
+    background-image: url(../images/whiteback.png);
+}
+
+header {
+    height: 125px;
+    background-image: url(../images/cameraheader.png);
+    border: solid 2px dimgray;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+header h1 {
+    padding: 25px 80px 20px 0px;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+    -webkit-text-stroke: 0.034em black;
+    font-family: palatino, serif;
+}
+
+.smallerheader {
+    font-size: 1.3em;
+    padding: 0;
+}
+
+nav {
+    padding: 10px;
+    border: solid 2px;
+    background-color: #e3dac8;
+}
+
+.fixedheader {
+    position: fixed;
+    top: 0;
+    width: 960px;
+}
+
+#wrapper {
+    width:960px;
+    margin: auto;
+}
+
+nav li {
+    display: inline;
+    padding: 10px 22px;
+    border-right: inset 3px #c2bbac;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: dimgray;
+}
+
+#aside2 {
+    float: right;
+    width: 240px;
+}
+
+#aside2 p {
+    padding: 7px 10px;
+}
+
+.alignlist {
+    padding-left: 73px;
+}
+
+.alignlist2 {
+    padding-left: 85px;
+}
+
+#aside1 {
+    float: left;
+}
+
+aside {
+    width: 280px;
+    background-color:blue;
+    font-size: 1.1em;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    padding: 20px 0px 30px;
+    background-color: dimgray;
+    color: white;
+}
+
+aside ui {
+    list-style-type: "\1f4f7";
+}
+
+aside li {
+    padding: 7px;
+    font-family: Didot, serif; 
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#aside1 a:hover, footer a:hover {
+    font-weight: bolder;
+}
+
+aside li:hover{
+    list-style-type: "\1f4f8";
+}
+
+#maincontent, #maincontent_3col {
+    float: right;
+    background-color: #e3dac8;
+    border-right: solid 2px dimgray;
+    border-left: solid 2px dimgray;
+    border-bottom: solid 2px dimgray;
+}
+
+#maincontent {
+    width: 660px;
+}
+
+#maincontent_3col {
+    width: 450px;
+    margin-right: 210px;
+}
+
+main {
+    margin: 0px 15px;
+}
+
+main img {
+    margin: 10px 15px;
+    border: solid 2px dimgray;
+    border-radius: 10px;
+}
+
+main h1{
+    padding: 190px 15px 15px;
+    text-align: center;
+}
+
+main p, h2 {
+    padding: 6px 0px;
+    line-height: 1.5;
+}
+
+main h2 {
+    font-size: 1.8em;
+}
+
+main h3 {
+    padding: 13px 10px 4px;
+}
+
+main li {
+    padding: 5px 10px;
+}
+
+.featureslist {
+    padding-top:25px;
+    font-size: 1.4em;
+}
+
+#prof1, #prof3, #inpersonhours {
+    float: left;
+}
+
+#prof2 {
+    float: right;
+    margin-top: 25px;
+    margin-right: 0px;
+}
+
+#prof1, #prof2, #prof3 {
+    border: solid 1px dimgray;
+    border-radius: 10px;
+}
+
+#tanya_desc {
+    padding-left: 10px;
+}
+
+#profsarticle {
+    text-align: justify;
+}
+
+.lastparagraph {
+    padding-bottom: 30px;
+}
+
+iframe {
+    width: 340px;
+    height: 250px;
+    margin: 10px 17px 15px;
+    border: solid 2px dimgray;
+}
+
+#schedulelist {
+    list-style-type: none;
+}
+
+#article_3col {
+    padding-right: 15px;
+}
+
+#footer_3col {
+    width: 450px;
+}
+
+.testimonialpics {
+    margin: 10px 1px;
+}
+
+#testimonialarray a:hover img {
+    border: dashed 3px dimgray;
+}
+
+.test_aside {
+    padding: 10px;
+}
+
+.test_asidehead {
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+footer {
+    background-color:dimgray;
+    clear: both;
+    width: 660px;
+    margin-left: 296px;
+    border: solid 2px dimgray;
+}
+
+footer p {
+    text-align: right;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1em;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+}

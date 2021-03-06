@@ -1,0 +1,400 @@
+@font-face {
+    font-family: "paytone";
+    src: url("../fonts/PaytoneOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "robotocond";
+    src: url("../fonts/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/geometry.png)
+}
+
+/* Box Classes */
+
+.wrapper {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    
+}
+
+.headfoot {
+    background-color: black;
+    color: white;
+    height: 80px;
+}
+
+.box2 {
+    background-color: #efefef;
+    height: 500px;
+}
+
+.box3 {
+    background-color: #dfdfdf;
+    height: 680px;
+}
+
+.box4 {
+    background-color: #cbcbcb;
+    height: 350px;
+}
+
+.box5 {
+    background-color: #b5b5b5;
+    height: 460px;
+}
+
+
+/* Nav Items */
+
+header nav {
+    padding: 30px 0 0 360px;
+}
+
+footer nav {
+    text-align:center;
+    padding-top: 30px;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+.headfoot a {
+    color: white;
+    font-family: robotocond;
+    font-size: 1.2em;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    color:dimgray;
+}
+
+/* Text Formatting */
+
+header h1 {
+    float: left;
+    padding: 15px 0 0 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: paytone, sans-serif;
+}
+
+.box2 h1 {
+    font-size: 5em;
+    letter-spacing: -8px;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.box5 h2 {
+    font-size: 1.5em;
+    padding: 13px 0px;
+}
+
+.box5 h1 {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 30px 30px 40px;
+}
+
+p {
+    font-family: robotocond, sans-serif;
+}
+
+/* Image Floats */
+
+.leftfloatimg {
+    float: left;
+}
+
+.rightfloatimg {
+    float: right;
+}
+
+.box4items {
+    float:left;
+    padding: 60px 20px 20px 20px;
+}
+
+.testbios {
+    float:left;
+    width: 200px;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+/* Item Padding */
+
+.box2 img {
+    margin: 50px;
+}
+
+.box2 h1 {
+    padding-top:130px;
+}
+
+.box3 img {
+    padding: 50px 20px 0px;
+}
+
+.box3 h2 {
+    padding: 50px 80px 15px 50px;
+    line-height: 25px;
+}
+
+.box3 p {
+    padding-left: 50px;
+    padding-right: 100px;
+    font-size: 1.35em;
+}
+
+#box2header {
+    padding-left:520px;
+}
+
+#box2para {
+    padding-left:520px;
+}
+
+#box2para2 {
+    padding-right: 570px;
+}
+
+#firsttest {
+    padding-left:100px;
+}
+
+/* Buttons :> */
+
+.box2button1, .box2button2 {
+	box-shadow:inset 0px 1px 0px -4px #cccccc;
+	background:linear-gradient(to bottom, #d1d1d1 5%, #7d7d7d 100%);
+	background-color:#d1d1d1;
+	border-radius:2px;
+	border:1px solid #707070;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:13px 25px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #000000;
+}
+
+.box2button1 {
+    margin: 30px 35px 0 0;
+}
+
+.box2button2 {
+    padding: 13px 35px
+}
+.box2button1:hover {
+	background:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+	background-color:#7d7d7d;
+}
+.box2button1:active, .box2button2{
+	position:relative;
+	top:1px;
+}
+
+.box2button2:hover {
+	background:linear-gradient(to left, red,orange,yellow,green,blue,indigo,violet);
+	background-color:#7d7d7d;
+}
+
+/* ~~~ Fun Hover Features!! ~~~ */
+
+
+#b:hover {
+    color:red;
+    position: relative;
+    top:5px;
+}
+
+#r:hover {
+    color:orange;
+    position: relative;
+    bottom:10px;
+}
+
+#a:hover {
+    color:yellow;
+    position: relative;
+    top:6px;
+}
+
+#i:hover {
+    color:green;
+    position: relative;
+    top:8px;
+}
+
+#n:hover {
+    color:blue;
+    position: relative;
+    bottom:10px;
+}
+
+#f:hover {
+    color:indigo;
+    position: relative;
+    top:5px;
+}
+
+#l:hover {
+    color:purple;
+    position: relative;
+    bottom:5px;
+}
+
+#e:hover {
+    color:hotpink;
+    position: relative;
+    top:5px;
+}
+
+#x:hover {
+    color:pink;
+    position: relative;
+    bottom:10px;
+}
+
+.box2 img:hover {
+    cursor: url(../images/paintbrush.ani);
+}
+
+.headfoot a:hover {
+    font-size:1.4em;
+    border: inset 3px white;
+    border-radius: 10px;
+}
+
+#products:hover {
+    color:red;
+}
+
+#support:hover {
+    color: orange;
+}
+
+#casestudies:hover {
+    color:yellow;
+}
+
+#partners:hover {
+    color:green;
+}
+
+#contact:hover {
+    color:blue;
+}
+
+#products2:hover {
+    color:indigo;
+}
+
+#support2:hover {
+    color: mediumpurple;
+}
+
+#casestudies2:hover {
+    color:deeppink;
+}
+
+#partners2:hover {
+    color:hotpink;
+}
+
+#contact2:hover {
+    color:lightpink;
+}
+
+.box3 a:hover {
+    font-size: 2em;
+    font-family: paytone;
+}
+
+#learnmore1:hover {
+    color:red;
+}
+
+#learnmore2:hover {
+    color:#faea3c;
+    -webkit-text-stroke: 1px red;
+}
+
+#unlimited:hover {
+    color:blue;
+    position:relative;
+    top:5px;
+}
+
+#potential:hover {
+    color:green;
+    position:relative;
+    bottom:5px;
+}
+
+#innovation:hover {
+    color:red;
+    position: relative;
+    bottom:5px;
+}
+
+#begins:hover {
+    color:orange;
+    position:relative;
+    left:5px;
+}
+
+#here:hover {
+    color:yellow;
+    -webkit-text-stroke: 1px black;
+    position:relative;
+    top:5px;
+    font-size: 1.5em;
+}
+
+.box5 img:hover {
+    cursor: url(https://cur.cursors-4u.net/symbols/sym-2/sym169.cur), auto!important;
+}
+
+#box4img1:hover {
+    cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAMAAgDoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAD/AAAAzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQEAAAAAAAAAAAAAAAAAEREBEAAAAAAAAAAAAAAAERERAREAAAAAAAAAAAAAEREREQEREAAAAAAAAAAAEREREREBEREAAAAAAAAAEREREREAEBEREAAAAAAAEREREREAEiIBERAAAAAAEREREREAERIiEBEQAAAAABEREREAEiISIhEBEAAAAAAREREAERIiEREiIBAAAAAAEREAEiISIhERIiEAAAAAABEAERIiEREiISIhAAAAAAAAEiISIhERIiERAAAAAAAAERIiEREiISIhAAAAAAAAAAESIhERIiERAAAAAAAAAAAAEREiISIhAAAAAAAAAAAAAAERIiERAAAAAAAAAAAAAAAAESIhAAAAAAAAAAAAAAAAAAERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/////////////////////////////+////+H///+A///+AH//+AA//+AAH/+AAA/+AAAH+AAAB/AAAAfwAAAH8AAAB/AAAAfwAAAH8AAAH/AAAH/4AAH//AAH//YAH//zAH//8YH///DH///wf///8D///////////////////w=='), auto;
+}
+
+#box4img2:hover {
+    cursor: url(https://cur.cursors-4u.net/smilies/smi-1/smi12.ani), url(http://cur.cursors-4u.net/smilies/smi-1/smi12.png), auto !important;
+}
+
+#box4img3:hover {
+    cursor: url(https://ani.cursors-4u.net/others/oth-9/oth842.cur), auto !important;
+}
+
+#box4img4:hover {
+    cursor: url(https://cur.cursors-4u.net/mechanics/mec-1/mec55.ani), url(http://cur.cursors-4u.net/mechanics/mec-1/mec55.png), auto !important;
+}
+
+.box2 img:hover {
+    cursor: url(https://cur.cursors-4u.net/others/oth-2/oth198.cur), auto !important;
+}
