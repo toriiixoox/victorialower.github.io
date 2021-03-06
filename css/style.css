@@ -1,0 +1,264 @@
+
+
+@font-face {
+    font-family: "abel";
+    src: url("../fonts/abel-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "patrickhand";
+    src: url("../fonts/patrickhand-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "spartan";
+    src: url("../fonts/spartan-variablefont_wght.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: spartan;
+}
+
+#wrapper1, #wrapper2, #wrapper3, #wrapper4 {
+    height:100%;
+    overflow: auto;
+}
+
+#wrapper1 {
+    background-color: #ffe7a6;
+}
+
+#wrapper2 {
+    background-color: #fad9d9;
+}
+
+#wrapper3 {
+    background-color: #cffff5;
+}
+
+#wrapper4 {
+    background-color: #d6ffcf;
+}
+
+#wrapper5 {
+    background-color: lavender;
+}
+
+#section1, #section2, #section3, #section4, #section5 {
+    width: 960px;
+    margin: auto;
+    overflow: auto;
+}
+
+header h1 {
+    text-align: center;
+    padding: 112px 0px 0px;
+    font-size: 7.5em;
+    font-family: spartan;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover h1{
+    color: #808080;
+}
+
+#section2 a:hover, #section3 a:hover, #section4 a:hover, #section5 a:hover {
+    color:#808080;
+}
+
+.topbutton {
+	background-color:#808080;
+	display:inline;
+	cursor:pointer;
+	color:#ffe7a6;
+	font-family:patrickhand;
+	font-size:1.5em;
+	font-weight:bold;
+	padding:5px 60px;
+    margin: 10px;
+	text-decoration:none;
+}
+
+#buttons {
+    padding: 60px 131px 30px;
+}
+
+.topbutton:hover {
+	background-color:#808080;
+    border: solid 1px black;
+}
+
+.topbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottombutton {
+	background-color:#ffe7a6;
+	display:inline-block;
+	cursor:pointer;
+	color:#808080;
+	font-family:patrickhand;
+    font-weight:bold;
+	padding:5px 60px;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 260px;
+    
+}
+
+.bottombutton:hover {
+	background-color:#ffe7a6;
+    border: solid 1px black;
+    border-top: none;
+}
+
+.bottombutton:active {
+	position:relative;
+	top:1px;
+}
+
+.screenshot1 {
+    width: 450px;
+    height: 450px;
+    display: inline;
+    margin: 30px 8px;
+    border: solid 5px #ffe7a6;
+}
+
+
+.screenshot2 {
+    width:280px;
+    height:280px;
+    display:inline;
+    margin: 30px 13px;
+    border: solid 5px #fad9d9;
+}
+
+#section5 .screenshot2 {
+    border: solid 5px #cffff5;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+#section2 li {
+    margin: 80px;
+}
+
+#section2 h1 {
+    font-size: 3.5em;
+    text-align: center;
+    margin: 30px 10px 0;
+}
+
+#section3 li {
+    margin: 110px;
+}
+
+.bottompad {
+    padding-bottom: 20px;
+}
+
+
+footer h1 {
+    float: left;
+    padding: 30px;
+}
+
+.floatright {
+    float:right;
+    padding: 23px
+}
+
+.nopad {
+    padding: 30px 20px 20px;
+    font-size: 6em;
+}
+
+.preview {
+    width: 85%;
+    margin: 10px 80px;
+}
+
+.overlay {
+    position:absolute;
+    top: 240px;
+    width: 250px;
+}
+
+.buttonchange1 {
+    width: 350px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    color:yellow;
+}
+
+.buttonchange1 .img-top {
+    display:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.buttonchange1:hover .img-top {
+    background: url("images/button1back.png") no-repeat;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+
+article {
+    font-size: 1.5em;
+    padding: 30px 60px;
+    line-height: 1.4em;
+}
+
+article p {
+    padding-top: 20px;
+}
+
+#aboutmetitle {
+    padding: 30px 55px 0;
+    font-size: 2em;
+}
+
+#aboutmehead {
+    padding: 10px 60px;
+    padding-top: 30px;
+}
+
+#aboutmedesc {
+    padding-top: 0px;
+}
+
+#aboutmepic {
+    padding: 20px 30px;
+}
+
+.websiteex {
+    width: 33%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bottomtext {
+    text-align: center;
+    font-size: 2em;
+    padding: 40px 377px 0px;
+}
+
+/* for later #dbb0ad */
